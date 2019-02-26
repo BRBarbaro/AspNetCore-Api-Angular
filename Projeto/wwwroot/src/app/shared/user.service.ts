@@ -36,7 +36,7 @@ export class UserService {
     var body = {
       UserName: this.formModel.value.UserName,
       Email: this.formModel.value.Email,
-      Nome: this.formModel.value.FullName,
+      Nome: this.formModel.value.Nome,
       Password: this.formModel.value.Passwords.Password
     };
     return this.http.post(this.BaseURI + '/Usuario/Register', body);
