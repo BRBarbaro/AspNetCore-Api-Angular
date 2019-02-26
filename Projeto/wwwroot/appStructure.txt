@@ -1,0 +1,33 @@
+● src
++---● app
+|   +--● user
+|   |  |--user.component.ts|.html
+|   |  +--● registration
+|   |  |  |--registration.component.ts|.html
+|   |  +--● login
+|   |     |--login.component.ts|.html
+|   |  
+|   +--● home
+|   |  |--home.component.ts|.html
+|   |  +--● salas
+|   |     |--salas.component.ts|.html
+|   |     +--● sala
+|   |     |  |--sala.component.ts|.html
+|   |     +--● reservas
+|   |        |--reservas.component.ts|.html
+|   |
+|   +--● shared
+|   |  |--reserva.model.ts
+|   |  |--reserva.service.ts
+|   |  |--sala.model.ts
+|   |  |--sala.service.ts
+|   |  |--user.service.ts
+|   |  
+|   +--● auth
+|   |  |--auth.guard.ts
+|   |  |--auth.interceptor.ts
+|   |
+|   |--app.module.ts
+|   |--app-routing.module.ts (route configs.)
+|
+|--index.html (cdn path for bootstrap)

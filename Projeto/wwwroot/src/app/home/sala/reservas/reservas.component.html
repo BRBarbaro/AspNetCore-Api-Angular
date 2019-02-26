@@ -1,0 +1,46 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand text-white" href="#">Web App</a>
+</nav>
+<div class="container">
+  <h2 style="text-align: center">Edição de Reservas</h2>  
+  <form #form="ngForm" autocomplete="off" *ngIf="service.formData" (submit)="onSubmit(form)">
+    <input type="hidden"  name="ReservaId" #Id="ngModel" [(ngModel)]="service.formData.ReservaId">
+    <input type="hidden"  name="SalaId" #Id="ngModel" [(ngModel)]="service.formData.SalaId">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group row">
+          <label for="Titulo" class="col-sm-2 col-form-label">Título</label>
+          <div class="col-sm-10">
+          <input id="Titulo" name="Titulo" #Titulo="ngModel" [(ngModel)]="service.formData.Titulo" class="form-control" required [class.is-invalid]="!isValid && service.formData.Titulo == ''">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label for="Inicio" class="col-sm-4 col-form-label">Inicio</label>
+          <div class="col-sm-8  ">
+          <input id="Inicio" type="datetime-local" name="Inicio" #Inicio="ngModel" [(ngModel)]="service.formData.Inicio" class="form-control" required [class.is-invalid]="!isValid && service.formData.Inicio == ''">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label for="Fim" class="col-sm-4 col-form-label">Fim</label>
+          <div class="col-sm-8  ">
+          <input id="Fim" type="datetime-local" name="Fim" #Fim="ngModel" [(ngModel)]="service.formData.Fim" class="form-control" required [class.is-invalid]="!isValid && service.formData.Fim == ''">
+          </div>
+        </div>
+      </div>      
+    </div>
+    <div class="row">
+      <div class="col-md-10"></div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <button type="submit" class="btn btn-outline-success btn-block">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </form>  
+</div>

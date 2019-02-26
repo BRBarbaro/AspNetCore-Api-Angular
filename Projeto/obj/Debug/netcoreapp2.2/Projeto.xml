@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Projeto</name>
+    </assembly>
+    <members>
+        <member name="M:Projeto.Controllers.ReservaController.GetReservas">
+            <summary>
+            Retorna as reservas cadastradas.
+            </summary>        
+        </member>
+        <member name="M:Projeto.Controllers.ReservaController.GetReserva(System.Int64)">
+            <summary>
+            Retorna a reserva correspondente ao parametro informado.
+            </summary>
+            <param name="id"></param>
+            <response code="200">Retorna a reserva correspondente ao parametro informado</response>
+            <response code="404">Reserva não encontrada</response> 
+        </member>
+        <member name="M:Projeto.Controllers.ReservaController.PostReserva(Projeto.Models.Reserva)">
+             <summary>
+             Cadastra uma nova reserva
+             </summary>
+             <remarks>
+             Amostra de objeto:
+            
+                 POST /api/reserva
+                 {  
+                    "salaId": 1,
+                    "titulo": "Reuniao geral",
+                    "inicio: "25/02/2019 09:00",
+                    "fim": "25/02/2019 12:00"
+                 }
+            
+             </remarks>
+             <param name="reserva"></param>
+             <returns>Nova reserva criada</returns>
+             <response code="201">Retorna a reserva recem criada</response>
+             <response code="400">Houve falha durante o cadastro</response> 
+        </member>
+        <member name="M:Projeto.Controllers.ReservaController.PutReserva(System.Int64,Projeto.Models.Reserva)">
+             <summary>
+             Atualiza uma reserva localizada pelo identificador 
+             </summary>
+             <remarks>
+             Amostra de objeto:
+            
+                 PUT /api/reserva/{id}
+                 {  
+                    "id":1,
+                    "salaId": 1,
+                    "titulo": "Reuniao geral",
+                    "inicio: "25/02/2019 09:00",
+                    "fim": "25/02/2019 15:00"
+                 }
+            
+             </remarks>
+             <param name="id"></param>
+             <param name="reserva"></param>
+             <response code="204">Reserva atualizada</response>
+             <response code="400">Houve falha durante a alteração</response>         
+             <response code="404">Reserva não encontrada</response>  
+        </member>
+        <member name="M:Projeto.Controllers.ReservaController.DeleteReserva(System.Int32)">
+            <summary>
+            Deleta uma reserva localizada pelo identificador
+            </summary>
+            <param name="id"></param>
+            <response code="204">Reserva deletada</response>  
+            <response code="400">Houve falha durante a deleção</response>           
+            <response code="404">Reserva não encontrada</response>   
+        </member>
+        <member name="M:Projeto.Controllers.SalaController.GetSalas">
+            <summary>
+            Retorna as salas cadastradas.
+            </summary>
+        </member>
+        <member name="M:Projeto.Controllers.SalaController.GetSala(System.Int64)">
+            <summary>
+            Retorna a sala correspondente ao parametro informado.
+            </summary>
+            <param name="id"></param>
+            <response code="200">Retorna a sala correspondente ao parametro informado</response>
+            <response code="404">Sala não encontrada</response> 
+        </member>
+        <member name="M:Projeto.Controllers.SalaController.PostSala(Projeto.Models.Sala)">
+             <summary>
+             Cadastra uma nova sala
+             </summary>
+             <remarks>
+             Amostra de objeto:
+            
+                 POST /api/sala
+                 {
+                    "nome": "Sala",
+                    "capacidade": 0
+                 }
+            
+             </remarks>
+             <param name="sala"></param>
+             <returns>Nova sala criada</returns>
+             <response code="201">Retorna a sala recem criada</response>
+             <response code="400">Houve falha durante o cadastro</response> 
+        </member>
+        <member name="M:Projeto.Controllers.SalaController.PutSala(System.Int64,Projeto.Models.Sala)">
+             <summary>
+             Atualiza uma sala localizada pelo identificador 
+             </summary>
+             <remarks>
+             Amostra de objeto:
+            
+                 PUT /api/sala/{id}
+                 {
+                    "id": 1    
+                    "nome": "Sala",
+                    "capacidade": 0
+                 }
+            
+             </remarks>
+             <param name="id"></param>
+             <param name="sala"></param>
+             <response code="204">Sala atualizada</response>
+             <response code="400">Houve falha durante a alteração</response>         
+             <response code="404">Sala não encontrada</response>         
+        </member>
+        <member name="M:Projeto.Controllers.SalaController.DeleteSala(System.Int32)">
+            <summary>
+            Deleta uma sala localizada pelo identificador
+            </summary>
+            <param name="id"></param>
+            <response code="204">Sala deletada</response>  
+            <response code="400">Houve falha durante a deleção</response>           
+            <response code="404">Sala não encontrada</response>           
+        </member>
+        <member name="M:Projeto.Controllers.UsuarioController.PostUsuario(Projeto.Models.UsuarioDTO)">
+             <summary>
+             Cadastra um novo usuário
+             </summary>
+             <remarks>
+             Amostra de objeto:
+            
+                 POST /api/usuario/register
+                 {
+                    "userName": "Usuario",
+                    "nome": "Nome do usuario",
+                    "email": "email@dousuario.com",
+                    "password": "senhadousuario"
+                 }
+            
+             </remarks>
+             <param name="usuarioDTO"></param>
+             <returns>Nova sala criada</returns>
+             <response code="200">Retorna objeto {"succeeded": true, "errors": [] } </response>
+             <response code="400">Houve falha durante o cadastro</response> 
+        </member>
+        <member name="M:Projeto.Controllers.UsuarioController.Login(Projeto.Models.UsuarioDTO)">
+             <summary>
+             Efetua login do usuario
+             </summary>
+             <remarks>
+             Amostra de objeto:
+            
+                 POST /api/usuario/login
+                 {
+                    "userName": "Usuario",
+                    "password": "senhadousuario"
+                 }
+            
+             </remarks>
+             <param name="usuarioDTO"></param>
+             <returns>Nova sala criada</returns>
+             <response code="200">Retorna objeto {"token": "JsonWebToken" } </response>
+             <response code="400">Houve falha durante o cadastro</response>         
+        </member>
+        <member name="M:Projeto.Controllers.UsuarioController.GetUsuario">
+            <summary>
+            Retorna as informações do usuário logado
+            </summary>
+        </member>
+    </members>
+</doc>

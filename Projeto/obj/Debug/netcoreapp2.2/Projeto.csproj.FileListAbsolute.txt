@@ -1,0 +1,32 @@
+C:\Users\Bárbaro\Desktop\Projeto\bin\Debug\netcoreapp2.2\Projeto.deps.json
+C:\Users\Bárbaro\Desktop\Projeto\bin\Debug\netcoreapp2.2\Projeto.runtimeconfig.json
+C:\Users\Bárbaro\Desktop\Projeto\bin\Debug\netcoreapp2.2\Projeto.runtimeconfig.dev.json
+C:\Users\Bárbaro\Desktop\Projeto\bin\Debug\netcoreapp2.2\Projeto.dll
+C:\Users\Bárbaro\Desktop\Projeto\bin\Debug\netcoreapp2.2\Projeto.pdb
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.csprojAssemblyReference.cache
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.csproj.CoreCompileInputs.cache
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.RazorAssemblyInfo.cache
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.RazorAssemblyInfo.cs
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.AssemblyInfoInputs.cache
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.AssemblyInfo.cs
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.RazorTargetAssemblyInfo.cache
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.dll
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.pdb
+C:\Users\Bárbaro\Desktop\Projeto - Copia\bin\Debug\netcoreapp2.2\Projeto.deps.json
+C:\Users\Bárbaro\Desktop\Projeto - Copia\bin\Debug\netcoreapp2.2\Projeto.runtimeconfig.json
+C:\Users\Bárbaro\Desktop\Projeto - Copia\bin\Debug\netcoreapp2.2\Projeto.runtimeconfig.dev.json
+C:\Users\Bárbaro\Desktop\Projeto - Copia\bin\Debug\netcoreapp2.2\Projeto.dll
+C:\Users\Bárbaro\Desktop\Projeto - Copia\bin\Debug\netcoreapp2.2\Projeto.pdb
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.csprojAssemblyReference.cache
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.csproj.CoreCompileInputs.cache
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.RazorAssemblyInfo.cache
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.RazorAssemblyInfo.cs
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.AssemblyInfoInputs.cache
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.AssemblyInfo.cs
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.RazorTargetAssemblyInfo.cache
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.dll
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.pdb
+C:\Users\Bárbaro\Desktop\Projeto - Copia\bin\Debug\netcoreapp2.2\Projeto.xml
+C:\Users\Bárbaro\Desktop\Projeto - Copia\obj\Debug\netcoreapp2.2\Projeto.xml
+C:\Users\Bárbaro\Desktop\Projeto\bin\Debug\netcoreapp2.2\Projeto.xml
+C:\Users\Bárbaro\Desktop\Projeto\obj\Debug\netcoreapp2.2\Projeto.xml

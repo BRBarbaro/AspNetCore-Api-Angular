@@ -1,0 +1,30 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand text-white">Web App</a>
+  <a class="navbar-brand text-white"><strong>Usuario : </strong>{{userDetails.userName}}</a>
+  <a class="navbar-brand text-white"><strong>Nome : </strong>{{userDetails.nome}}</a>
+  <a class="navbar-brand text-white"><strong>Email : </strong>{{userDetails.email}}</a>
+  <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
+</nav>
+<div class="container">
+<h2 style="text-align: center">Salas de Reuniões</h2>
+<table class="table table-hover ">
+  <thead class="thead-light">
+    <th>#</th>
+    <th>Nome</th>
+    <th>Capacidade</th>
+    <th>
+      <a class="btn btn-outline-success" routerLink="/sala"><i class="fa fa-plus-square"></i> Nova Sala</a>
+    </th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of salaList">
+      <th (click)="openForEdit(item.id)">{{item.id}}</th>
+      <td (click)="openForEdit(item.id)">{{item.nome}}</td>
+      <td (click)="openForEdit(item.id)">{{item.capacidade}}</td>
+      <td>
+          <a class="btn text-danger" (click)="onDelete(item.id)"><i class="fa fa-trash fa-lg"></i></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
