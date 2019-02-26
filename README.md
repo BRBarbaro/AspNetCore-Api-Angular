@@ -10,9 +10,9 @@
 - Documentação da API com **[Swagger](https://swagger.io/)**
 
 ## Requisitos para executar o projeto
->[ASP.NET Core versão 2.2 SDK](https://dotnet.microsoft.com/download) ou Superior instalado
->[NPM](https://nodejs.org/en/) instalado (vem junto ao NodeJS)
->[@angular/cli](https://angular.io/cli) instalado (com o NPM instalado, execute `npm install -g @angular/cli` no prompt de comando)
+- [ASP.NET Core versão 2.2 SDK](https://dotnet.microsoft.com/download) ou Superior instalado
+- [NPM](https://nodejs.org/en/) instalado (vem junto ao NodeJS)
+- [@angular/cli](https://angular.io/cli) instalado (com o NPM instalado, execute `npm install -g @angular/cli` no prompt de comando)
 
 
 Abra a pasta Projeto no prompt de comando e execute  `dotnet run`, esse comando é responsável por colocar o back-end em execução, a API estará disponível em http://localhost:5000. Esse comando também irá criar o banco de dados na pasta raiz de nome **Projeto.db**. Caso queria verificar a estrutura do banco gerado, sugiro o uso da ferramenta [DB Browser for SQLite](https://sqlitebrowser.org/).
